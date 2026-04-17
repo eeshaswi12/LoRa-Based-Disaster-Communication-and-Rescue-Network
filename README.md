@@ -1,2 +1,7 @@
 # LoRa-Based-Disaster-Communication-and-Rescue-Network
 The LoRa-Based Disaster Management System is an IoT solution using an ESP32 controller, ADXL335 accelerometer, and water level sensor to detect earthquakes and floods. Alerts are sent via LoRa modules to a gateway and forwarded to authorities, while a buzzer provides local warnings, ensuring resilient communication and rapid disaster response.
+The LoRa-Based Disaster Management System is an IoT-driven solution designed to detect and respond to natural disasters such as earthquakes and floods in real time. It leverages ESP32 microcontrollers, ADXL335 accelerometers, and water level sensors to continuously monitor environmental conditions. Sensor data is processed locally and classified into SAFE, ALERT, or DANGER states, ensuring accurate detection of abnormal events.
+
+For communication, the system uses LoRa technology, enabling long-range, low-power transmission of disaster alerts even in areas where mobile networks fail. Alerts are received by a LoRa gateway and forwarded to a Telegram chatbot or disaster management control center, ensuring authorities and rescue teams are notified instantly. A buzzer module provides immediate local alerts, enhancing community awareness during emergencies.
+
+This architecture ensures resilient communication, scalable deployment, and rapid disaster response. By combining sensor-based monitoring, real-time processing, and reliable alert mechanisms, the system strengthens disaster preparedness and minimizes risks in vulnerable regions.
